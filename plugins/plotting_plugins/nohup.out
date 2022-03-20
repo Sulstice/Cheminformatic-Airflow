@@ -1,0 +1,284 @@
+  ____________       _____________
+ ____    |__( )_________  __/__  /________      __
+____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+ _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+[2021-07-28 15:19:03,850] {dagbag.py:496} INFO - Filling up the DagBag from /dev/null
+[2021-07-28 15:19:04,524] {plugins_manager.py:336} WARNING - Plugin 'AstronomerMenuLinks' may not be compatible with the current Airflow version. Please contact the author of the plugin.
+Running the Gunicorn Server with:
+Workers: 4 sync
+Host: 0.0.0.0:8886
+Timeout: 120
+Logfiles: - -
+Access Logformat: 
+=================================================================            
+[2021-07-28 15:19:06 -0400] [2846] [INFO] Starting gunicorn 20.1.0
+[2021-07-28 15:19:06 -0400] [2846] [INFO] Listening at: http://0.0.0.0:8886 (2846)
+[2021-07-28 15:19:06 -0400] [2846] [INFO] Using worker: sync
+[2021-07-28 15:19:06 -0400] [2849] [INFO] Booting worker with pid: 2849
+[2021-07-28 15:19:06 -0400] [2850] [INFO] Booting worker with pid: 2850
+[2021-07-28 15:19:06 -0400] [2851] [INFO] Booting worker with pid: 2851
+[2021-07-28 15:19:06 -0400] [2852] [INFO] Booting worker with pid: 2852
+[2021-07-28 15:19:08,394] {plugins_manager.py:336} WARNING - Plugin 'AstronomerMenuLinks' may not be compatible with the current Airflow version. Please contact the author of the plugin.
+[2021-07-28 15:19:08,456] {plugins_manager.py:336} WARNING - Plugin 'AstronomerMenuLinks' may not be compatible with the current Airflow version. Please contact the author of the plugin.
+[2021-07-28 15:19:08,512] {plugins_manager.py:336} WARNING - Plugin 'AstronomerMenuLinks' may not be compatible with the current Airflow version. Please contact the author of the plugin.
+[2021-07-28 15:19:08,578] {plugins_manager.py:336} WARNING - Plugin 'AstronomerMenuLinks' may not be compatible with the current Airflow version. Please contact the author of the plugin.
+127.0.0.1 - - [28/Jul/2021:15:19:09 -0400] "GET /home HTTP/1.1" 200 41127 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+127.0.0.1 - - [28/Jul/2021:15:19:10 -0400] "GET /home HTTP/1.1" 200 41127 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+127.0.0.1 - - [28/Jul/2021:15:19:10 -0400] "GET /static/appbuilder/css/font-awesome.min.css HTTP/1.1" 200 0 "http://localhost:8886/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+127.0.0.1 - - [28/Jul/2021:15:19:10 -0400] "GET /static/appbuilder/css/bootstrap.min.css HTTP/1.1" 200 0 "http://localhost:8886/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+127.0.0.1 - - [28/Jul/2021:15:19:10 -0400] "GET /static/appbuilder/select2/select2.css HTTP/1.1" 200 0 "http://localhost:8886/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+127.0.0.1 - - [28/Jul/2021:15:19:10 -0400] "GET /static/appbuilder/datepicker/bootstrap-datepicker.css HTTP/1.1" 200 0 "http://localhost:8886/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+127.0.0.1 - - [28/Jul/2021:15:19:10 -0400] "GET /static/appbuilder/css/flags/flags16.css HTTP/1.1" 200 0 "http://localhost:8886/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+127.0.0.1 - - [28/Jul/2021:15:19:10 -0400] "GET /static/appbuilder/css/ab.css HTTP/1.1" 200 0 "http://localhost:8886/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+127.0.0.1 - - [28/Jul/2021:15:19:10 -0400] "GET /static/dist/airflowDefaultTheme.3e8bda71892b61b62f94.css HTTP/1.1" 200 0 "http://localhost:8886/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+127.0.0.1 - - [28/Jul/2021:15:19:10 -0400] "GET /static/dist/main.e52cf607b64cdcd15089.css HTTP/1.1" 200 0 "http://localhost:8886/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+127.0.0.1 - - [28/Jul/2021:15:19:10 -0400] "GET /static/dist/materialIcons.3221294eb511f43d1b15.css HTTP/1.1" 200 0 "http://localhost:8886/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+127.0.0.1 - - [28/Jul/2021:15:19:10 -0400] "GET /static/dist/loadingDots.4033edd9abf2750d6f8f.css HTTP/1.1" 200 0 "http://localhost:8886/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+127.0.0.1 - - [28/Jul/2021:15:19:10 -0400] "GET /static/dist/switch.e97750fdb7423f33656a.css HTTP/1.1" 200 0 "http://localhost:8886/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+127.0.0.1 - - [28/Jul/2021:15:19:10 -0400] "GET /static/dist/bootstrap-datetimepicker.min.css HTTP/1.1" 200 0 "http://localhost:8886/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+127.0.0.1 - - [28/Jul/2021:15:19:10 -0400] "GET /static/dist/dags.6c090f6b27d152c78e7a.css HTTP/1.1" 200 0 "http://localhost:8886/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+127.0.0.1 - - [28/Jul/2021:15:19:10 -0400] "GET /static/dist/flash.d205b61edc54ed448412.css HTTP/1.1" 200 0 "http://localhost:8886/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+127.0.0.1 - - [28/Jul/2021:15:19:10 -0400] "GET /static/appbuilder/js/jquery-latest.js HTTP/1.1" 200 0 "http://localhost:8886/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+127.0.0.1 - - [28/Jul/2021:15:19:10 -0400] "GET /static/appbuilder/js/ab_filters.js HTTP/1.1" 200 0 "http://localhost:8886/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+127.0.0.1 - - [28/Jul/2021:15:19:10 -0400] "GET /static/appbuilder/js/ab_actions.js HTTP/1.1" 200 0 "http://localhost:8886/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+127.0.0.1 - - [28/Jul/2021:15:19:10 -0400] "GET /static/appbuilder/js/bootstrap.min.js HTTP/1.1" 200 0 "http://localhost:8886/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+127.0.0.1 - - [28/Jul/2021:15:19:10 -0400] "GET /static/appbuilder/select2/select2.js HTTP/1.1" 200 0 "http://localhost:8886/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+127.0.0.1 - - [28/Jul/2021:15:19:10 -0400] "GET /static/appbuilder/datepicker/bootstrap-datepicker.js HTTP/1.1" 200 0 "http://localhost:8886/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+127.0.0.1 - - [28/Jul/2021:15:19:10 -0400] "GET /static/appbuilder/js/ab.js HTTP/1.1" 200 0 "http://localhost:8886/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+127.0.0.1 - - [28/Jul/2021:15:19:10 -0400] "GET /static/dist/moment.c1933ee062e9650051f7.js HTTP/1.1" 200 0 "http://localhost:8886/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+127.0.0.1 - - [28/Jul/2021:15:19:10 -0400] "GET /static/dist/main.e52cf607b64cdcd15089.js HTTP/1.1" 200 0 "http://localhost:8886/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+127.0.0.1 - - [28/Jul/2021:15:19:10 -0400] "GET /static/dist/bootstrap-datetimepicker.min.js HTTP/1.1" 200 0 "http://localhost:8886/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+127.0.0.1 - - [28/Jul/2021:15:19:10 -0400] "GET /static/dist/bootstrap3-typeahead.min.js HTTP/1.1" 200 0 "http://localhost:8886/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+127.0.0.1 - - [28/Jul/2021:15:19:10 -0400] "GET /static/dist/d3.min.js HTTP/1.1" 200 0 "http://localhost:8886/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+127.0.0.1 - - [28/Jul/2021:15:19:10 -0400] "GET /static/dist/dags.6c090f6b27d152c78e7a.js HTTP/1.1" 200 0 "http://localhost:8886/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+127.0.0.1 - - [28/Jul/2021:15:19:11 -0400] "POST /last_dagruns HTTP/1.1" 200 564 "http://localhost:8886/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+127.0.0.1 - - [28/Jul/2021:15:19:11 -0400] "POST /blocked HTTP/1.1" 200 112 "http://localhost:8886/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+127.0.0.1 - - [28/Jul/2021:15:19:11 -0400] "POST /dag_stats HTTP/1.1" 200 1039 "http://localhost:8886/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+127.0.0.1 - - [28/Jul/2021:15:19:11 -0400] "POST /task_stats HTTP/1.1" 200 3849 "http://localhost:8886/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+127.0.0.1 - - [28/Jul/2021:15:19:11 -0400] "GET /static/pin_32.png HTTP/1.1" 200 0 "http://localhost:8886/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[2021-07-28 15:19:12,598] {app.py:1892} ERROR - Exception on /testappbuilderbaseview/ [GET]
+Traceback (most recent call last):
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/sulstice/airflow/plugins/menu_link/menu_link.py", line 35, in test
+    return self.render_template("test_plugin/test.html", content="Hello galaxy!")
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/flask_appbuilder/baseviews.py", line 288, in render_template
+    template, **dict(list(kwargs.items()) + list(self.extra_args.items()))
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/flask/templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/jinja2/environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/jinja2/environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/jinja2/environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/jinja2/loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/flask/templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/flask/templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: test_plugin/test.html
+127.0.0.1 - - [28/Jul/2021:15:19:12 -0400] "GET /testappbuilderbaseview/ HTTP/1.1" 500 3614 "http://localhost:8886/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+127.0.0.1 - - [28/Jul/2021:15:19:12 -0400] "GET /favicon.ico HTTP/1.1" 404 561 "http://localhost:8886/testappbuilderbaseview/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[2021-07-28 15:19:13,545] {app.py:1892} ERROR - Exception on /testappbuilderbaseview/ [GET]
+Traceback (most recent call last):
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/sulstice/airflow/plugins/menu_link/menu_link.py", line 35, in test
+    return self.render_template("test_plugin/test.html", content="Hello galaxy!")
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/flask_appbuilder/baseviews.py", line 288, in render_template
+    template, **dict(list(kwargs.items()) + list(self.extra_args.items()))
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/flask/templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/jinja2/environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/jinja2/environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/jinja2/environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/jinja2/loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/flask/templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/flask/templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: test_plugin/test.html
+127.0.0.1 - - [28/Jul/2021:15:19:13 -0400] "GET /testappbuilderbaseview/ HTTP/1.1" 500 3614 "http://localhost:8886/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[2021-07-28 15:19:14,192] {app.py:1892} ERROR - Exception on /testappbuilderbaseview/ [GET]
+Traceback (most recent call last):
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/sulstice/airflow/plugins/menu_link/menu_link.py", line 35, in test
+    return self.render_template("test_plugin/test.html", content="Hello galaxy!")
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/flask_appbuilder/baseviews.py", line 288, in render_template
+    template, **dict(list(kwargs.items()) + list(self.extra_args.items()))
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/flask/templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/jinja2/environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/jinja2/environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/jinja2/environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/jinja2/loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/flask/templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/flask/templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: test_plugin/test.html
+127.0.0.1 - - [28/Jul/2021:15:19:14 -0400] "GET /testappbuilderbaseview/ HTTP/1.1" 500 3614 "http://localhost:8886/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+127.0.0.1 - - [28/Jul/2021:15:19:14 -0400] "GET /favicon.ico HTTP/1.1" 404 561 "http://localhost:8886/testappbuilderbaseview/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[2021-07-28 15:19:14,688] {app.py:1892} ERROR - Exception on /testappbuilderbaseview/ [GET]
+Traceback (most recent call last):
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/sulstice/airflow/plugins/menu_link/menu_link.py", line 35, in test
+    return self.render_template("test_plugin/test.html", content="Hello galaxy!")
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/flask_appbuilder/baseviews.py", line 288, in render_template
+    template, **dict(list(kwargs.items()) + list(self.extra_args.items()))
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/flask/templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/jinja2/environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/jinja2/environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/jinja2/environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/jinja2/loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/flask/templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/flask/templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: test_plugin/test.html
+127.0.0.1 - - [28/Jul/2021:15:19:14 -0400] "GET /testappbuilderbaseview/ HTTP/1.1" 500 3614 "http://localhost:8886/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+127.0.0.1 - - [28/Jul/2021:15:19:14 -0400] "GET /favicon.ico HTTP/1.1" 404 561 "http://localhost:8886/testappbuilderbaseview/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+[2021-07-28 15:19:15 -0400] [2846] [INFO] Handling signal: hup
+[2021-07-28 15:19:15 -0400] [2846] [INFO] Hang up: Master
+[2021-07-28 15:19:15 -0400] [3048] [INFO] Booting worker with pid: 3048
+[2021-07-28 15:19:15 -0400] [3049] [INFO] Booting worker with pid: 3049
+[2021-07-28 15:19:15 -0400] [2850] [INFO] Worker exiting (pid: 2850)
+[2021-07-28 15:19:15 -0400] [2849] [INFO] Worker exiting (pid: 2849)
+[2021-07-28 15:19:15 -0400] [2851] [INFO] Worker exiting (pid: 2851)
+[2021-07-28 15:19:15 -0400] [2852] [INFO] Worker exiting (pid: 2852)
+[2021-07-28 15:19:15 -0400] [3051] [INFO] Booting worker with pid: 3051
+[2021-07-28 15:19:15 -0400] [3050] [INFO] Booting worker with pid: 3050
+[2021-07-28 15:19:16 -0400] [2846] [WARNING] Worker with pid 2852 was terminated due to signal 15
+[2021-07-28 15:19:16 -0400] [2846] [WARNING] Worker with pid 2849 was terminated due to signal 15
+[2021-07-28 15:19:16 -0400] [2846] [WARNING] Worker with pid 2850 was terminated due to signal 15
+[2021-07-28 15:19:17,909] {plugins_manager.py:336} WARNING - Plugin 'AstronomerMenuLinks' may not be compatible with the current Airflow version. Please contact the author of the plugin.
+[2021-07-28 15:19:17,912] {plugins_manager.py:336} WARNING - Plugin 'AstronomerMenuLinks' may not be compatible with the current Airflow version. Please contact the author of the plugin.
+[2021-07-28 15:19:17,932] {plugins_manager.py:336} WARNING - Plugin 'AstronomerMenuLinks' may not be compatible with the current Airflow version. Please contact the author of the plugin.
+[2021-07-28 15:19:17,979] {plugins_manager.py:336} WARNING - Plugin 'AstronomerMenuLinks' may not be compatible with the current Airflow version. Please contact the author of the plugin.
+[2021-07-28 15:19:21 -0400] [2846] [INFO] Handling signal: hup
+[2021-07-28 15:19:21 -0400] [2846] [INFO] Hang up: Master
+[2021-07-28 15:19:21 -0400] [3182] [INFO] Booting worker with pid: 3182
+[2021-07-28 15:19:21 -0400] [3183] [INFO] Booting worker with pid: 3183
+[2021-07-28 15:19:21 -0400] [3184] [INFO] Booting worker with pid: 3184
+[2021-07-28 15:19:21 -0400] [3048] [INFO] Worker exiting (pid: 3048)
+[2021-07-28 15:19:21 -0400] [3049] [INFO] Worker exiting (pid: 3049)
+[2021-07-28 15:19:21 -0400] [3050] [INFO] Worker exiting (pid: 3050)
+[2021-07-28 15:19:21 -0400] [3051] [INFO] Worker exiting (pid: 3051)
+[2021-07-28 15:19:21 -0400] [3185] [INFO] Booting worker with pid: 3185
+[2021-07-28 15:19:21 -0400] [2846] [WARNING] Worker with pid 3048 was terminated due to signal 15
+[2021-07-28 15:19:21 -0400] [2846] [WARNING] Worker with pid 3050 was terminated due to signal 15
+[2021-07-28 15:19:21 -0400] [2846] [WARNING] Worker with pid 3049 was terminated due to signal 15
+[2021-07-28 15:19:23,056] {plugins_manager.py:336} WARNING - Plugin 'AstronomerMenuLinks' may not be compatible with the current Airflow version. Please contact the author of the plugin.
+[2021-07-28 15:19:23,057] {plugins_manager.py:336} WARNING - Plugin 'AstronomerMenuLinks' may not be compatible with the current Airflow version. Please contact the author of the plugin.
+[2021-07-28 15:19:23,069] {plugins_manager.py:336} WARNING - Plugin 'AstronomerMenuLinks' may not be compatible with the current Airflow version. Please contact the author of the plugin.
+[2021-07-28 15:19:23,205] {plugins_manager.py:336} WARNING - Plugin 'AstronomerMenuLinks' may not be compatible with the current Airflow version. Please contact the author of the plugin.
+[2021-07-28 15:19:26 -0400] [2846] [INFO] Handling signal: hup
+[2021-07-28 15:19:26 -0400] [2846] [INFO] Hang up: Master
+[2021-07-28 15:19:26 -0400] [3291] [INFO] Booting worker with pid: 3291
+[2021-07-28 15:19:26 -0400] [3293] [INFO] Booting worker with pid: 3293
+[2021-07-28 15:19:26 -0400] [3292] [INFO] Booting worker with pid: 3292
+[2021-07-28 15:19:26 -0400] [3183] [INFO] Worker exiting (pid: 3183)
+[2021-07-28 15:19:26 -0400] [3185] [INFO] Worker exiting (pid: 3185)
+[2021-07-28 15:19:26 -0400] [3182] [INFO] Worker exiting (pid: 3182)
+[2021-07-28 15:19:26 -0400] [3184] [INFO] Worker exiting (pid: 3184)
+[2021-07-28 15:19:26 -0400] [3294] [INFO] Booting worker with pid: 3294
+[2021-07-28 15:19:26 -0400] [2846] [WARNING] Worker with pid 3184 was terminated due to signal 15
+[2021-07-28 15:19:26 -0400] [2846] [WARNING] Worker with pid 3182 was terminated due to signal 15
+[2021-07-28 15:19:26 -0400] [2846] [WARNING] Worker with pid 3183 was terminated due to signal 15
+[2021-07-28 15:19:28,163] {plugins_manager.py:336} WARNING - Plugin 'AstronomerMenuLinks' may not be compatible with the current Airflow version. Please contact the author of the plugin.
+[2021-07-28 15:19:28,184] {plugins_manager.py:336} WARNING - Plugin 'AstronomerMenuLinks' may not be compatible with the current Airflow version. Please contact the author of the plugin.
+[2021-07-28 15:19:28,196] {plugins_manager.py:336} WARNING - Plugin 'AstronomerMenuLinks' may not be compatible with the current Airflow version. Please contact the author of the plugin.
+[2021-07-28 15:19:28,243] {plugins_manager.py:336} WARNING - Plugin 'AstronomerMenuLinks' may not be compatible with the current Airflow version. Please contact the author of the plugin.
+[2021-07-28 15:19:31 -0400] [2846] [INFO] Handling signal: term
+[2021-07-28 15:19:31 -0400] [3292] [INFO] Worker exiting (pid: 3292)
+[2021-07-28 15:19:31 -0400] [3294] [INFO] Worker exiting (pid: 3294)
+[2021-07-28 15:19:31 -0400] [3293] [INFO] Worker exiting (pid: 3293)
+[2021-07-28 15:19:31 -0400] [3291] [INFO] Worker exiting (pid: 3291)
+[2021-07-28 15:19:32,323] {webserver_command.py:255} ERROR - [0 / 0] Some workers seem to have died and gunicorn did not restart them as expected
+[2021-07-28 15:19:32 -0400] [2846] [INFO] Shutting down: Master
+[2021-07-28 15:19:42,382] {webserver_command.py:268} INFO - [0 / 0] Spawning 1 workers
+[2021-07-28 15:21:42,421] {webserver_command.py:217} ERROR - No response from gunicorn master within 120 seconds
+[2021-07-28 15:21:42,422] {webserver_command.py:218} ERROR - Shutting down webserver
+  ____________       _____________
+ ____    |__( )_________  __/__  /________      __
+____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+ _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+[2021-07-28 15:24:12,913] {dagbag.py:496} INFO - Filling up the DagBag from /dev/null
+[2021-07-28 15:24:13,750] {plugins_manager.py:336} WARNING - Plugin 'AstronomerMenuLinks' may not be compatible with the current Airflow version. Please contact the author of the plugin.
+Traceback (most recent call last):
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/airflow/__main__.py", line 44, in <module>
+    main()
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/airflow/__main__.py", line 40, in main
+    args.func(args)
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/airflow/utils/cli.py", line 91, in wrapper
+    return f(*args, **kwargs)
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/airflow/cli/commands/webserver_command.py", line 368, in webserver
+    check_if_pidfile_process_is_running(pid_file=pid_file, process_name="webserver")
+  File "/home/sulstice/software/miniconda2/envs/mdpython/lib/python3.7/site-packages/airflow/utils/process_utils.py", line 267, in check_if_pidfile_process_is_running
+    raise AirflowException(f"The {process_name} is already running under PID {pid}.")
+airflow.exceptions.AirflowException: The webserver is already running under PID 7069.
