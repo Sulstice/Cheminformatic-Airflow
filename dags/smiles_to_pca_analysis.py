@@ -37,7 +37,7 @@ with DAG('smiles_to_pca_analysis',
 
     step4 = PythonOperator(
         task_id='smiles_to_pca_analysis',
-        python_callable=step_4
+        python_callable=step_2
     )
 
 step4
