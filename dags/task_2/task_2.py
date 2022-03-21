@@ -58,7 +58,7 @@ def mol2fparr(mol):
     DataStructs.ConvertToNumpyArray(fp, arr)
     return arr
 
-def step_4():
+def step_2():
     
     smiles_dataframe = pd.read_csv('/home/sulstice/airflow/dags/task_1/data/smiles.txt', sep='\n', header=None, names=['smiles'])
     smiles_list = smiles_dataframe['smiles'].to_list()
