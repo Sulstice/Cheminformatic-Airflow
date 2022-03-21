@@ -1,3 +1,3 @@
 author = 'Sulstice'
 
-from task_4.task_4 import *
+from task_2.task_2 import *
