@@ -13,7 +13,7 @@ bp = Blueprint(
 # Creating a flask appbuilder BaseView
 class PCAAnalysisAppBuilderBaseView(AppBuilderBaseView):
 
-    template_folder = '/home/sulstice/airflow/plugins/plotting_plugins/templates'
+    template_folder = 'Cheminformatic-Airflow/plugins/plotting_plugins/templates'
     
     @expose("/")
     def list(self):
