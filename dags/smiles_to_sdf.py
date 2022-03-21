@@ -32,7 +32,6 @@ default_args = {
 
 from task_1.task_1 import * 
 from task_2.task_2 import *
-from task_2.task_3 import *
 
 with DAG('smiles_to_cgenff',
          default_args=default_args,
@@ -45,14 +44,4 @@ with DAG('smiles_to_cgenff',
         python_callable=step_1
     )
 
-    step2 = PythonOperator(
-        task_id='cgenff_to_tinydb',
-        python_callable=step_2,
-    )
-
-    step3 = PythonOperator(
-        task_id='plot_penalty_scores',
-        python_callable=step_3,
-    )
-
-step1 >> step2 >> step3
+step1 
