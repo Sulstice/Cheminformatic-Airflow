@@ -33,7 +33,7 @@ default_args = {
 from task_1.task_1 import * 
 from task_2.task_2 import *
 
-with DAG('smiles_to_cgenff',
+with DAG('smiles_to_sdf',
          default_args=default_args,
          schedule_interval='*/10 * * * *',
          catchup=False,
