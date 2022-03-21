@@ -89,6 +89,6 @@ def step_2():
     ])
 
         
-    output_file(filename="/home/sulstice/airflow/plugins/plotting_plugins/templates/pca_analysis.html", title="Static HTML file")
+    output_file(filename="Cheminformatic-Airflow/plugins/plotting_plugins/templates/pca_analysis.html", title="Static HTML file")
 
     save(plot)
