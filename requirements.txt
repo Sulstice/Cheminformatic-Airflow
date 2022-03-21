@@ -1,0 +1,5 @@
+flask_admin
+IPython
+rdkit-pypi
+pandas
+numpy
